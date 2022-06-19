@@ -1,5 +1,6 @@
 <?php
 header("Content-type: text/html; charset=utf-8");
+<script language="php">
 $robot=$_GET["robot"];
 $msg=$_GET["msg"];
 if($msg=="唤醒词条"){
@@ -26,4 +27,4 @@ echo "OPEN";
 if($msg=="维护状态"){
 echo "OFF";
 }
-?>
+</script>
